@@ -1,7 +1,7 @@
 # fe_concept
 
 ---
-# Mixture of
+## Mixture of
 - HTML - CSS - JavaScript - jQuery - Ajax
 - frontend problem code
 
