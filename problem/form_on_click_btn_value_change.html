@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Demo1</title>
+</head>
+<body>
+
+<p>
+on click fruit display banana,
+on click vegitable display potato
+
+<center>
+
+<input type="button" name="fruit" value="Fruit" onclick="change('Banana')"><br>
+<input type="button" name="vegitable" value="Vegitable" onclick="change('Potato')"><br>
+</p>
+
+<div id="food">
+	you eat: Banana
+</div>
+
+</center>
+
+
+<script type="text/javascript">
+	function change(value){
+		document.getElementById('food').innerHTML = 'you eat: ' + value;
+	}
+</script>
+
+
+</body>
+</html>
