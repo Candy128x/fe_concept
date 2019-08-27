@@ -1,0 +1,68 @@
+h1 {
+  color: #0021b4;
+  background: #b0ffff;
+}
+
+h2 {
+  color: skyblue;
+}
+
+h3 {
+  color: #0021b4;
+}
+
+.hd1 {
+  color: #0021b4;
+  background: #b0ffff;
+}
+
+div span {
+  color: #5e007a;
+}
+
+.star {
+  color: #ced100;
+}
+
+button {
+  color: #00a3a8;
+}
+
+button::hover {
+  color: green;
+}
+
+p {
+  color: #00a3a8;
+}
+
+p::hover {
+  color: green;
+}
+
+.btnSubmit {
+  color: #00a3a8;
+}
+
+.flexBox {
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.flexBox button {
+  color: skyblue;
+}
+
+.flexBox button::after {
+  color: lightgray;
+  content: "Done";
+}
+/*# sourceMappingURL=demo_sass_2.css.map */

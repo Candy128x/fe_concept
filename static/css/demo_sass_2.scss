@@ -1,0 +1,54 @@
+$headerColor: rgb(0, 33, 180);
+$headerBgColor: rgb(176, 255, 255);
+
+$divSpanColor: rgb(94, 0, 122);
+$starColor: rgb(206, 209, 0);
+
+$btnColor: rgb(0, 163, 168);
+
+@import "./header";
+
+
+div span {
+	color: $divSpanColor;
+}
+
+.star {
+	color: $starColor;
+}
+
+button {
+	color: $btnColor;
+	&::hover {
+		color: green;
+	}
+}
+
+p {
+	color: $btnColor;
+	&::hover {
+		color: green;
+	}
+}	
+
+.btnSubmit {
+	color: $btnColor;
+}
+
+@mixin flexCenter {
+	justify-content: center;
+	align-items: center;
+}
+
+.flexBox {
+	height: 100vh;
+	display: flex;
+	@include flexCenter;
+	button {
+		color: skyblue;
+		&::after {
+			color: lightgray;
+			content: "Done";
+		}
+	}
+}
